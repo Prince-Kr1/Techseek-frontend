@@ -1,5 +1,6 @@
 import { processToApply } from "@/Data/Data";
 import "../index.css"; 
+import howItWorks from "../assets/howItWorks.png";
 
 const ProcessFlow = () => {
   return (
@@ -18,7 +19,7 @@ const ProcessFlow = () => {
         <div className="flex items-center justify-center w-[50%] ml-20">
           <div className="w-[40rem]">
             <img
-              src="../src/assets/howItWorks.png"
+              src={howItWorks}
               alt="landing image"
               className="w-full h-150"
             />

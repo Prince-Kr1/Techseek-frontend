@@ -1,4 +1,5 @@
 import SearchBar from "./SearchBar"
+import landing1 from "../assets/landing1.png";
 
 const DreamJob = () => {
   return (
@@ -21,7 +22,7 @@ const DreamJob = () => {
 
         <div className="flex items-center justify-center w-full lg:w-[50%]">
             <div className="w-full max-w-sm sm:max-w-md lg:max-w-[40rem]">
-                <img src="../src/assets/landing1.png" alt="landing image" className="w-full h-auto" />
+            <img src={landing1} alt="landing image" className="w-full h-auto" />
             </div> 
         </div>
 
